@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#footerCont p {
+  margin: 0;
+  margin-left: 1rem;
+  margin-block: 1rem;
+}
+
+#alertCont {
+  min-height: calc(100vh - 56px - 56px);
+}
+
+#cardCont {
+  min-height: 650px;
+}
+
+#cardImage {
+  width: 100%;
+  /* max-height: 370px; */
+  object-fit: cover;
+}
+
+#addBtn {
+  font-size: 13px;
+  padding: 0.3rem;
+}
+.genreBtn {
+  margin-inline: 1rem;
+}
+
+#authorEmail {
+  font-size: 13px;
+}
+
+#trashBtn {
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+}
