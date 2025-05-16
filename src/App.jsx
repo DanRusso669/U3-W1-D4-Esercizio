@@ -1,15 +1,25 @@
-import { Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "./App.css";
 import TopBar from "./components/TopBar";
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import Welcome from "./components/Welcome";
+// import AllTheBooks from "./components/AllTheBooks";
+import BookList from "./components/BookList";
+import fantasy from "./array/fantasy.json";
+// import horror from "./array/horror.json";
+// import romance from "./array/romance.json";
+// import scifi from "./array/scifi.json";
+// import history from "./array/history.json";
 
 function App() {
   return (
     <>
       <TopBar />
-      <Container fluid className="px-4">
-        <Hero />
-      </Container>
+      <Welcome>
+        <BookList lista={fantasy} />
+        {/* <BookList lista={horror} /> */}
+      </Welcome>
+      <Footer />
     </>
   );
 }
