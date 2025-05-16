@@ -6,42 +6,89 @@
 
 body {
   margin: 0;
+  background-color: #221f1f;
 }
 
-#footerCont p {
-  margin: 0;
-  margin-left: 1rem;
-  margin-block: 1rem;
+h2,
+h4,
+footer {
+  color: #f5f5f1;
 }
 
-#alertCont {
-  min-height: calc(100vh - 56px - 56px);
+#logo {
+  width: 100px;
+  height: 65px;
 }
 
-#cardCont {
-  min-height: 650px;
+.sections {
+  color: #ffffff8c;
 }
 
-#cardImage {
-  width: 100%;
-  /* max-height: 370px; */
-  object-fit: cover;
+.sections:hover {
+  color: #ffffffbf;
 }
 
-#addBtn {
-  font-size: 13px;
-  padding: 0.3rem;
-}
-.genreBtn {
-  margin-inline: 1rem;
+.sections:first-child {
+  color: #fff;
 }
 
-#authorEmail {
-  font-size: 13px;
+.icons {
+  font-size: 1.2em;
+  color: #f5f5f1;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
-#trashBtn {
-  font-size: 12px;
-  background-color: transparent;
-  border: none;
+.icons:hover {
+  color: #ffffffbf;
+}
+
+.navbar-nav {
+  font-size: 90%;
+}
+
+#kids {
+  color: #f5f5f1;
+  font-size: 0.8em;
+}
+
+#dropdownBasic {
+  background-color: #221f1f;
+  font-size: 14px;
+}
+
+.footer-icon {
+  color: #838383;
+}
+
+.footer-links {
+  font-size: 0.8em;
+}
+
+.footer-links p {
+  margin-bottom: 0.3em;
+  color: #838383;
+}
+
+.footer-links a {
+  color: #838383;
+  text-decoration: none;
+}
+
+.footer-button {
+  color: #838383;
+  border-color: #838383;
+}
+
+.copyright {
+  color: #838383;
+  font-size: 0.6em;
+}
+
+.col img {
+  transition: transform 0.2s;
+}
+
+.col img:hover {
+  transform: scale(1.1);
 }
